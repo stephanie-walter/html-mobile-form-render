@@ -1,0 +1,97 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+	body{
+		margin:.5em;
+		background: #f9f9f9;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	label{
+		padding-right: .5em;
+	}
+	p, fieldset{
+		margin-top: 1.5em;
+	}
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+	div>div{
+		display: inline-block;		
+		padding:.5em;
+		margin: .5em;
+		border: 10px solid #fff;
+	}
+	.mobi div>div{
+		max-width: 20%;
+	}
+	.tablet div>div{
+		max-width: 48%;
+	}
+	@media(max-width: 640px){
+		div>div{
+			max-width: 40%;
+		}
+	}
+	@media(max-width: 400px){
+		div>div{
+			max-width: 98%;
+		}
+	}
+	h1{
+		background: #fcfcfc;
+		color: #666;
+	}
+
+
+	[type="radio"]{
+		margin-right: 2em;
+	}
+
+	#native:checked ~ .nav{
+		display: none;
+	}
+	#native:checked ~ .native{
+		display: block;
+	}
+	#safari:checked ~ .nav{
+		display: none;
+	}
+	#safari:checked ~ .safari{
+		display: block;
+	}
+
+	#chrome:checked ~ .nav{
+		display: none;
+	}
+	#chrome:checked ~ .chrome{
+		display: block;
+	}
+
+	#opera:checked ~ .nav{
+		display: none;
+	}
+	#opera:checked ~ .opera{
+		display: block;
+	}
+
+	#firefox:checked ~ .nav{
+		display: none;
+	}
+	#firefox:checked ~ .firefox{
+		display: block;
+	}
+
+	#dolphin:checked ~ .nav{
+		display: none;
+	}
+	#dolphin:checked ~ .dolphin{
+		display: block;
+	}
+
+	#all:checked ~ .nav{
+		display: block !important;
+	}
