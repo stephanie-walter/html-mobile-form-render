@@ -9,7 +9,7 @@ The idea is not only to see if the form element is supported and the render of t
 
 
 
-Ho to help ? 
+How to help ? 
 =======================
 If you want to help to create this little gallerie of screenshots, you just have to <a href="http://soqr.fr/form-elements/">check this form elements page and take some screenshots</a>from your mobile / tablet. We need you to *make a screenshot of each field with the focus on it* (except radio/checkbox and range) so that we can gather as many information as possible on the native controls of each browser + OS.
 
